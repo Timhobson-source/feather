@@ -23,3 +23,6 @@ Comparison on a log plot (base 10):
 ####
 <img src='assets/comparison.png'>
 
+####
+
+As you can see, feather files read by approximately a factor of 10 better than the compressed csv files across the entire range of file sizes, and are about 100 times as fast in the writing case.
