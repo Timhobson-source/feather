@@ -2,7 +2,7 @@
 
 This is a very simple display on some results of the read/write times of feather and gzip compressed files for different file sizes. It is a "knock out some results in an hour" kind of report, rather than actually comparing the pros and cons of the two file types for different purposes, or under various conditions
 
-After comparing .feather files against .csv.gz, I have found that feather files are significantly faster at reading and writing than gzip compressed .csv files for the test case.
+After comparing .feather files against .csv.gz, I have found that feather files are significantly faster at reading (by a factory about 10) and writing (by a factor of about 100) than gzip compressed .csv files for the test case.
 
 Here are some results after comparing them.
 
@@ -19,7 +19,7 @@ For gzip csv files, reading and writing the same inputs:
 
 ####
 
-Comparison on a log plot (base 2):
+Comparison on a log plot (base 10):
 ####
 <img src='assets/comparison.png'>
 
